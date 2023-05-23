@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, rgb(236, 241, 246), rgb(192, 205, 239));
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  position: fixed;
+  width: 200px;
+  background-color: #f1f1f1;
+  overflow-y: hidden;
+  height: 100vh;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+.sidebar a {
+  display: block;
+  padding: 10px;
+  width: 100%; /* Added width property */
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background-color: rgb(180, 180, 236);
+  width: 100%;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 200px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li p {
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+.email {
+    margin-top: -20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.company-name {
+  font-size: 1.2rem;
+}
+
+.place-and-time {
+  font-size: 1rem;
+}
+
+.responsibilities {
+  font-size: 1rem;
+}
+
+.degree {
+  font-size: 1.2rem;
+}
+
+.gpa {
+  font-size: 1rem;
+}
